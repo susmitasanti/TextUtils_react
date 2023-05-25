@@ -16,8 +16,8 @@ export default function Navbar(props) {
         <Link className="nav-link active" aria-current="page" to="/" style={{color: props.currentMode==="light" ? "black" : "white"}}>Home</Link>
         <Link className="nav-link" to="/about" style={{color: props.currentMode==="light" ? "black" : "white"}}>About</Link>
         <button type="button" class="btn" style={{backgroundColor: "#343a40", color:"white"}} onClick={props.changeModeD}>Dark</button>
-        <button type="button" class="btn" style={{backgroundColor:"white"}} onClick={props.changeModeL}>Light</button>
-        <button type="button" class="btn" style={{backgroundColor:"#3a5a40", color: "white"}} onClick={props.changeModeDG}>Dark Green</button>
+        &nbsp; <button type="button" class="btn" style={{backgroundColor:"white"}} onClick={props.changeModeL}>Light</button>
+        &nbsp; <button type="button" class="btn" style={{backgroundColor:"#3a5a40", color: "white"}} onClick={props.changeModeDG}>Dark Green</button>
 
 
 
