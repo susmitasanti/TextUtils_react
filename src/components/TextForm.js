@@ -34,7 +34,7 @@ export default function TextForm(props) {
 
 <br />   
 <h3 style={{color: props.currentMode==="light"?"black" : "white"}}> Enter Text to Analyze: </h3>
-     <input class="form-control form-control-lg" type="text" aria-label=".form-control-lg example" value={text} onChange={Changing} />
+<textarea className="form-control my-2" id="exampleFormControlTextarea1" rows="8" value={text} onChange={Changing}></textarea>
      <br />
      <button type="button" class="btn" style={{backgroundColor: props.currentMode==="light"?"#adb5bd" :"black", color: props.currentMode==="light"? "black": "white" }} onClick={Upper}>UpperCase</button>
      &nbsp;<button type="button" class="btn" style={{backgroundColor: props.currentMode==="light"?"#adb5bd" :"black", color: props.currentMode==="light"? "black": "white" }} onClick={Lower}>LowerCase</button>
