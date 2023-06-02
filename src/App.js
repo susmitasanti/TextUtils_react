@@ -9,8 +9,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   const [mode, setMode]=useState("light")
 
-  
-
   const modeFuncD = () => {
     setMode("dark")
    document.body.style.backgroundColor="#343a40"
